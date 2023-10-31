@@ -54,6 +54,29 @@ To run the client-side application locally, follow these steps:
 - **User-Friendly Interface**: A clean and intuitive user interface for easy navigation.
 - **Customization**: Ability to customize the extracted PDF's page selection.
 
+## Application Images
+
+Here are some images from the application to give you a glimpse of its interface:
+
+![Homepage](Application_Photos/HomePage.png)
+_Homepage: On the home page, you can select a PDF file._
+
+![PdfSelected](Application_Photos/PdfSelected.png)
+_PdfSelected: In this view, you can see the selected PDF in its entirety and select the pages you want to extract for a new PDF._
+
+![SavedPDFs](Application_Photos/SavedPDFs.png)
+_SavedPDFs: This section allows authenticated users to view the PDFs they've exported earlier._
+
+![AuthModal](Application_Photos/AuthModal.png)
+_AuthModal: This modal is for managing authentication._
+
+![Successfully Exported](Application_Photos/SuccessfullyExported.png)
+_Successfully Exported: By clicking the Download button, you can successfully export and download the PDF._
+
+![MobileView](Application_Photos/MobileView.png)
+_MobileView: The application is designed to work seamlessly on mobile devices._
+
+
 ### Usage
 
 1. Visit the client-side application in your browser.
