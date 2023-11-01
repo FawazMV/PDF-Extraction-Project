@@ -10,7 +10,7 @@ This repository contains both the server-side and client-side code for a web app
 
 ### Description
 
-The server-side of the application is built with Express.js and provides the backend functionality for handling PDF file uploads and page extraction. It also serves as the API for the client-side application.
+The server-side of the application is built with Express.js and provides the backend functionality for handling PDF file uploads, page extraction, and PDF management using the pdf-lib library. It also serves as the API for the client-side application.
 
 - Documentation: [API Documentation](https://documenter.getpostman.com/view/25497428/2s9YXb95kB)
 
@@ -32,7 +32,7 @@ To run the server locally, follow these steps:
 
 ### Description
 
-The client-side of the application is built with React.js and provides a user-friendly interface for users to interact with the server-side, upload PDF files, and select specific pages for extraction.
+The client-side of the application is built with React.js and provides a user-friendly interface for users to interact with the server-side, upload PDF files, and select specific pages for extraction. It utilizes the react-pdf library for rendering PDFs.
 
 
 ### Installation
@@ -73,7 +73,8 @@ _AuthModal: This modal is for managing authentication._
 ![Successfully Exported](Application_Photos/SuccessfullyExported.png)
 _Successfully Exported: By clicking the Download button, you can successfully export and download the PDF._
 
-![MobileView](Application_Photos/MobileView.png)
+
+<img src="Application_Photos/MobileView.png" width="350">
 _MobileView: The application is designed to work seamlessly on mobile devices._
 
 
